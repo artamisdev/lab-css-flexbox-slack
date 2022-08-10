@@ -5,3 +5,161 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 99%; 
+}
+
+h1 { 
+    font-family: 'Roboto Slab', serif;
+    font-size: 4rem ;
+    
+}
+ 
+h2 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    display: flex;
+  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.hamburg {
+    width: 80px;
+    height: 50px;
+    display: flex;
+     
+}
+
+nav > img {
+    display: flex;
+    width: 10rem;
+    height: 6rem;
+    
+}
+
+.imgpeople {
+ width: 100%;
+}
+
+button {
+    width: 400px;
+    height: 80px;
+    background-color: #F4F3F4;
+    display: flex;
+    margin: 1rem;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-radius: 10px
+    
+}
+
+.buttonblue {
+    width: 400px;
+    height: 80px;
+    background-color: #192592;
+    display: flex;
+    margin: 1rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-radius: 10px
+}
+
+p {
+    font-size: 30px;
+}
+
+.imglogo {
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+input {
+    width: 400px;
+    height: 80px;
+    background-color: #F4F3F4;
+    display: flex;
+    margin: 1rem;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-radius: 10px
+
+}
+.imgfooter {  
+    display: flex;
+    width: 80px;  
+}
+
+.box-ul {
+    display: flex;
+
+}
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flag {
+    width: 50px;
+}
+
+.baixo {
+    display: flex;
+}
+
+.butblue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.inform {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width:767px) and (max-width:961px) {
+
+    }
+   
